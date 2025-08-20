@@ -73,10 +73,10 @@ export const siteConfig: SiteConfig = {
 			title: "Mizuki", // Homepage banner main title
 
 			subtitle: [
-				"One demo website",
-				"Carousel Text1",
-				"Carousel Text2",
-				"Carousel Text3",
+				"One demo blog",
+				// "Carousel Text1",
+				// "Carousel Text2",
+				// "Carousel Text3",
 			], // Homepage banner subtitle, supports multiple texts
 			typewriter: {
 				enable: true, // Enable subtitle typewriter effect
@@ -113,15 +113,15 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		LinkPreset.Friends,
-		LinkPreset.Anime,
-		LinkPreset.Diary,
-		{
-			name: "GitHub",
-			url: "https://github.com/matsuzaka-yuki", // Internal links should not include base path as it will be automatically added
+		// LinkPreset.Friends,
+		// LinkPreset.Anime,
+		// LinkPreset.Diary,
+		// {
+			// name: "GitHub",
+			// url: "https://github.com/matsuzaka-yuki", // Internal links should not include base path as it will be automatically added
 
-			external: true, // Show external link icon and open in new tab
-		},
+			// external: true, // Show external link icon and open in new tab
+		// },
 	],
 };
 
@@ -130,21 +130,21 @@ export const profileConfig: ProfileConfig = {
 	name: "Mizuki",
 	bio: "This is a description",
 	links: [
-		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
+		// {
+			// name: "Bilibli",
+			// icon: "fa6-brands:bilibili",
+			// url: "https://space.bilibili.com/701864046",
+		// },
+		// {
+			// name: "Gitee",
+			// icon: "mdi:git",
+			// url: "https://gitee.com/matsuzakayuki",
+		// },
+		// {
+			// name: "GitHub",
+			// icon: "fa6-brands:github",
+			// url: "https://github.com/matsuzaka-yuki",
+		// },
 	],
 };
 
