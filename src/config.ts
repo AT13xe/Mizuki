@@ -13,7 +13,7 @@ import { LinkPreset } from "./types/config";
 import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 
 // Define site language
-const SITE_LANG = "en"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
+const SITE_LANG = "zh_CN"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
 
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
@@ -22,10 +22,11 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 210, // Default hue for theme color, range from 0 to 360. e.g., red: 0, cyan: 200, teal: 250, pink: 345
-		fixed: false, // Hide theme color picker for visitors
+		hue: 285, // Default hue for theme color, range from 0 to 360. e.g., red: 0, cyan: 200, teal: 250, pink: 345
+		fixed: true, // Hide theme color picker for visitors
 	},
 	translate: {
+		
 		enable: true, // Enable translation feature
 		service: "client.edge", // Use Edge browser translation service
 		defaultLanguage: getTranslateLanguageFromConfig(SITE_LANG), // Automatically set default translation language based on site language
